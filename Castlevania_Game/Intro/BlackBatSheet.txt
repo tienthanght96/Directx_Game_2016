@@ -1,0 +1,2 @@
+BlackBatFrame1 = 0 0 8 7
+BlackBatFrame2 = 0 8 8 5

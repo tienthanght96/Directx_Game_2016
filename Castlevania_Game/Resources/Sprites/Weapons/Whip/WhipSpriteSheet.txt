@@ -1,0 +1,15 @@
+ChainWhipBegin = 49 27 8 24
+ChainWhipEnd = 40 0 23 6
+ChainWhipMiddle = 40 7 16 19
+MorningStarBegin0 = 49 27 8 24
+MorningStarBegin1 = 64 0 8 24
+MorningStarBegin2 = 82 0 8 23
+MorningStarEnd0 = 0 0 39 6
+MorningStarEnd1 = 0 7 39 6
+MorningStarEnd2 = 0 14 39 6
+MorningStarMiddle0 = 40 7 16 19
+MorningStarMiddle1 = 0 30 16 19
+MorningStarMiddle2 = 34 27 14 19
+VampireKillerBegin = 73 0 8 24
+VampireKillerEnd = 0 21 24 8
+VampireKillerMiddle = 17 30 16 19

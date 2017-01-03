@@ -1,0 +1,2 @@
+BossFromMapFrame1 = 0 0 10 9
+BossFromMapFrame2 = 11 0 10 9

@@ -1,0 +1,15 @@
+CastleFrame1 = 0 0 72 56
+CastleFrame10 = 0 57 72 56
+CastleFrame11 = 73 0 72 56
+CastleFrame12 = 73 57 72 56
+CastleFrame13 = 146 0 72 56
+CastleFrame14 = 146 57 72 56
+CastleFrame15 = 0 114 72 56
+CastleFrame2 = 73 114 72 56
+CastleFrame3 = 146 114 72 56
+CastleFrame4 = 219 0 72 56
+CastleFrame5 = 219 57 72 56
+CastleFrame6 = 292 0 72 56
+CastleFrame7 = 219 114 72 56
+CastleFrame8 = 292 57 72 56
+CastleFrame9 = 292 114 72 56

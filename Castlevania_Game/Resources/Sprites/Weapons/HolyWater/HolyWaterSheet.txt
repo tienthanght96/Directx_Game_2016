@@ -1,0 +1,4 @@
+HolyWaterFrame1 = 0 0 10 10
+HolyWaterFrame2 = 11 0 8 15
+HolyWaterFrame3 = 20 0 8 15
+HolyWaterFrame4 = 0 11 8 15

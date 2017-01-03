@@ -1,0 +1,4 @@
+AxeFrame1 = 0 0 16 16
+AxeFrame4 = 17 0 16 16
+AxeFrame3 = 34 0 16 16
+AxeFrame2 = 0 17 16 16

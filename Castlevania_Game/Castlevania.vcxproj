@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2C999443-E2BA-4CC3-B1D2-FF6EF89FCCCB}</ProjectGuid>
+    <RootNamespace>CastlevaniaPrototype</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>Castlevania</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(WindowsSDK_LibraryPath_x86);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d9.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\dxgi.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\dxgi1_2.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\dxgitype.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\d3d10.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\d3d11.h" />
+    <ClInclude Include="Axe.h" />
+    <ClInclude Include="Cross.h" />
+    <ClInclude Include="Crown.h" />
+    <ClInclude Include="dsutil.h" />
+    <ClInclude Include="dxerr.h" />
+    <ClInclude Include="m2dx.h" />
+    <ClInclude Include="m2dxanimatedsprite.h" />
+    <ClInclude Include="m2dxbasegamelayer.h" />
+    <ClInclude Include="m2dxbasesprite.h" />
+    <ClInclude Include="m2dxd3dx.h" />
+    <ClInclude Include="m2dxdinput.h" />
+    <ClInclude Include="m2dxdirect3d.h" />
+    <ClInclude Include="m2dxdsound.h" />
+    <ClInclude Include="m2dxicollidable.h" />
+    <ClInclude Include="m2dxidrawable.h" />
+    <ClInclude Include="m2dxresourcemanager.h" />
+    <ClInclude Include="m2dxtexture.h" />
+    <ClInclude Include="m2dxutil.h" />
+    <ClInclude Include="m2dxwindow.h" />
+    <ClInclude Include="Potion.h" />
+    <ClInclude Include="Thorns.h" />
+    <ClInclude Include="TreasureChest.h" />
+    <ClInclude Include="WeponsItem.h" />
+    <ClInclude Include="AxeMan.h" />
+    <ClInclude Include="BackgroundLoader.h" />
+    <ClInclude Include="Bandage.h" />
+    <ClInclude Include="BatIntro.h" />
+    <ClInclude Include="BatScreen.h" />
+    <ClInclude Include="BlackKnight.h" />
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="BloodManager.h" />
+    <ClInclude Include="BloodSimon.h" />
+    <ClInclude Include="Bomerang.h" />
+    <ClInclude Include="BossFromMap.h" />
+    <ClInclude Include="Box.h" />
+    <ClInclude Include="Brick.h" />
+    <ClInclude Include="BulletManager.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CameraFlat.h" />
+    <ClInclude Include="Castlevania.h" />
+    <ClInclude Include="Chunk.h" />
+    <ClInclude Include="Dagger.h" />
+    <ClInclude Include="Door.h" />
+    <ClInclude Include="DoorManager.h" />
+    <ClInclude Include="DragonSkull.h" />
+    <ClInclude Include="EndGame.h" />
+    <ClInclude Include="FireBall.h" />
+    <ClInclude Include="Flamehit.h" />
+    <ClInclude Include="GetWepon.h" />
+    <ClInclude Include="Ghost.h" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="CObject.h" />
+    <ClInclude Include="Heart.h" />
+    <ClInclude Include="HolyWater.h" />
+    <ClInclude Include="Hunchback.h" />
+    <ClInclude Include="Intro.h" />
+    <ClInclude Include="ListChunk.h" />
+    <ClInclude Include="ListFlameHit.h" />
+    <ClInclude Include="MagicalCrytal.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="MorningStar.h" />
+    <ClInclude Include="MummyMan.h" />
+    <ClInclude Include="Number.h" />
+    <ClInclude Include="PauseScene.h" />
+    <ClInclude Include="PorkChop.h" />
+    <ClInclude Include="Raven.h" />
+    <ClInclude Include="SceneID.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="Score.h" />
+    <ClInclude Include="ScoreManager.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="TileScreen.h" />
+    <ClInclude Include="Time.h" />
+    <ClInclude Include="Watch.h" />
+    <ClInclude Include="Wepon.h" />
+    <ClInclude Include="WeponManager.h" />
+    <ClInclude Include="MovingPlatform.h" />
+    <ClInclude Include="QueenMedusa.h" />
+    <ClInclude Include="ItemManager.h" />
+    <ClInclude Include="LargeCandle.h" />
+    <ClInclude Include="LargeHeart.h" />
+    <ClInclude Include="Medusa.h" />
+    <ClInclude Include="MoneyBag100.h" />
+    <ClInclude Include="Moneybag1000.h" />
+    <ClInclude Include="MoneyBag400.h" />
+    <ClInclude Include="MoneyBag700.h" />
+    <ClInclude Include="Quadnode.h" />
+    <ClInclude Include="Quadtree.h" />
+    <ClInclude Include="Rect.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="SimonBelmont.h" />
+    <ClInclude Include="SmallHeart.h" />
+    <ClInclude Include="Snake.h" />
+    <ClInclude Include="Stairs.h" />
+    <ClInclude Include="SweptAABB.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="VampireBat.h" />
+    <ClInclude Include="Whip.h" />
+    <ClInclude Include="WhiteBone.h" />
+    <ClInclude Include="WhiteSkeleton.h" />
+    <ClInclude Include="Zombie.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Axe.cpp" />
+    <ClCompile Include="Cross.cpp" />
+    <ClCompile Include="Crown.cpp" />
+    <ClCompile Include="dsutil.cpp" />
+    <ClCompile Include="dxerr.cpp" />
+    <ClCompile Include="m2dxanimatedsprite.cpp" />
+    <ClCompile Include="m2dxbasegamelayer.cpp" />
+    <ClCompile Include="m2dxbasesprite.cpp" />
+    <ClCompile Include="m2dxd3dx.cpp" />
+    <ClCompile Include="m2dxdinput.cpp" />
+    <ClCompile Include="m2dxdirect3d.cpp" />
+    <ClCompile Include="m2dxdsound.cpp" />
+    <ClCompile Include="m2dxicollidable.cpp" />
+    <ClCompile Include="m2dxidrawable.cpp" />
+    <ClCompile Include="m2dxresourcemanager.cpp" />
+    <ClCompile Include="m2dxtexture.cpp" />
+    <ClCompile Include="m2dxutil.cpp" />
+    <ClCompile Include="m2dxwindow.cpp" />
+    <ClCompile Include="Potion.cpp" />
+    <ClCompile Include="Thorns.cpp" />
+    <ClCompile Include="TreasureChest.cpp" />
+    <ClCompile Include="WeposItem.cpp" />
+    <ClCompile Include="AxeMan.cpp" />
+    <ClCompile Include="BackgroundLoader.cpp" />
+    <ClCompile Include="Bandage.cpp" />
+    <ClCompile Include="BatIntro.cpp" />
+    <ClCompile Include="BatScreen.cpp" />
+    <ClCompile Include="BlackKnight.cpp" />
+    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="BloodManager.cpp" />
+    <ClCompile Include="BloodSimon.cpp" />
+    <ClCompile Include="Bomerang.cpp" />
+    <ClCompile Include="BossFromMap.cpp" />
+    <ClCompile Include="Box.cpp" />
+    <ClCompile Include="Brick.cpp" />
+    <ClCompile Include="BulletManager.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CameraFlat.cpp" />
+    <ClCompile Include="Chunk.cpp" />
+    <ClCompile Include="Dagger.cpp" />
+    <ClCompile Include="Door.cpp" />
+    <ClCompile Include="DoorManager.cpp" />
+    <ClCompile Include="DragonSkull.cpp" />
+    <ClCompile Include="EndGame.cpp" />
+    <ClCompile Include="FireBall.cpp" />
+    <ClCompile Include="FlamHit.cpp" />
+    <ClCompile Include="GetWepon.cpp" />
+    <ClCompile Include="Ghost.cpp" />
+    <ClCompile Include="Global.cpp" />
+    <ClCompile Include="Heart.cpp" />
+    <ClCompile Include="HolyWater.cpp" />
+    <ClCompile Include="Hunchback.cpp" />
+    <ClCompile Include="Intro.cpp" />
+    <ClCompile Include="ItemManager.cpp" />
+    <ClCompile Include="LargeCandle.cpp" />
+    <ClCompile Include="LargeHeart.cpp" />
+    <ClCompile Include="ListChunk.cpp" />
+    <ClCompile Include="ListFlameHit.cpp" />
+    <ClCompile Include="MagicalCrytal.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="MorningStar.cpp" />
+    <ClCompile Include="MummyMan.cpp" />
+    <ClCompile Include="Number.cpp" />
+    <ClCompile Include="PauseScene.cpp" />
+    <ClCompile Include="PorkChop.cpp" />
+    <ClCompile Include="Raven.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="Score.cpp" />
+    <ClCompile Include="ScoreManager.cpp" />
+    <ClCompile Include="Stage.cpp" />
+    <ClCompile Include="TileScreen.cpp" />
+    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="Watch.cpp" />
+    <ClCompile Include="Wepon.cpp" />
+    <ClCompile Include="WeponManager.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Castlevania.cpp" />
+    <ClCompile Include="CObject.cpp" />
+    <ClCompile Include="Medusa.cpp" />
+    <ClCompile Include="MoneyBag100.cpp" />
+    <ClCompile Include="MoneyBag1000.cpp" />
+    <ClCompile Include="MoneyBag400.cpp" />
+    <ClCompile Include="Moneybag700.cpp" />
+    <ClCompile Include="MovingPlatformcpp.cpp" />
+    <ClCompile Include="Quadnode.cpp" />
+    <ClCompile Include="Quadtree.cpp" />
+    <ClCompile Include="QueenMedusa.cpp" />
+    <ClCompile Include="Rect.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="SimonBelmont.cpp" />
+    <ClCompile Include="SmallHeart.cpp" />
+    <ClCompile Include="Snake.cpp" />
+    <ClCompile Include="Stairs.cpp" />
+    <ClCompile Include="SweptAABB.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Vampirebat.cpp" />
+    <ClCompile Include="Whip.cpp" />
+    <ClCompile Include="WhiteBone.cpp" />
+    <ClCompile Include="WhiteSkeleton.cpp" />
+    <ClCompile Include="Zombie.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Sprites\Simon Belmont\SimonBelmontSpriteSheet.png" />
+    <Image Include="Resources\Sprites\Weapons\Whip\WhipSpriteSheet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\Sprites\Simon Belmont\SimonBelmontSpriteSheet.txt" />
+    <Text Include="Resources\Sprites\Weapons\Whip\WhipSpriteSheet.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,4 @@
+CrownFrame1 = 0 0 15 16
+CrownFrame2 = 16 0 15 16
+CrownFrame3 = 32 0 15 16
+CrownFrame4 = 48 0 15 16

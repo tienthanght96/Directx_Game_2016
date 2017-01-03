@@ -1,0 +1,3 @@
+BeforeDead = 0 17 8 13
+HunchbackFrame1 = 0 0 16 16
+HunchbackFrame2 = 17 0 16 16

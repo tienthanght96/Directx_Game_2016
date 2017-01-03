@@ -1,0 +1,15 @@
+ChainWhip0 = 49 27 8 24
+ChainWhip1 = 40 7 16 19
+ChainWhip2 = 40 0 23 6
+MorningStar00 = 49 27 8 24
+MorningStar01 = 64 0 8 24
+MorningStar02 = 82 0 8 23
+MorningStar10 = 40 7 16 19
+MorningStar11 = 0 30 16 19
+MorningStar12 = 34 27 14 19
+MorningStar20 = 0 0 39 6
+MorningStar21 = 0 7 39 6
+MorningStar22 = 0 14 39 6
+VampireKiller0 = 73 0 8 24
+VampireKiller1 = 17 30 16 19
+VampireKiller2 = 0 21 24 8

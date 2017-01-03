@@ -1,0 +1,6 @@
+BeforeDead = 30 17 8 13
+VampireBatFrame1 = 0 0 16 16
+VampireBatFrame2 = 17 0 16 16
+VampireBatFrame3 = 34 0 16 16
+VampireBatFrame4 = 0 17 16 16
+VampireBatHanging = 17 17 12 14

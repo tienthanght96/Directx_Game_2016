@@ -1,0 +1,916 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{1d887d70-d249-4f44-832d-ed525205f888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Animated">
+      <UniqueIdentifier>{e445da41-93c7-4a22-8909-274b4f49b9f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Player">
+      <UniqueIdentifier>{cf941fde-03dc-4ec7-b000-7af1256d9fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sprite">
+      <UniqueIdentifier>{d0dcf06e-ccd2-40d1-af56-4f077dbf14c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\D3DX">
+      <UniqueIdentifier>{e6d8e088-386b-4071-811a-338c9defaa6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Input">
+      <UniqueIdentifier>{1706802c-2020-4db9-9107-ce20544b519c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sound">
+      <UniqueIdentifier>{195a4da6-a1fa-42bd-8695-a459c293502f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Collision">
+      <UniqueIdentifier>{0a103f0a-2c74-4aae-9f60-44e1412d0211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Draw">
+      <UniqueIdentifier>{df6334af-9d90-4cd6-86fb-a43a418dd30d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Texture">
+      <UniqueIdentifier>{6ec62b32-5d1b-4624-81d0-d76b96407d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\ResourceManager">
+      <UniqueIdentifier>{3e8972c2-22f8-4ef6-98e0-c43a2216963b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Window">
+      <UniqueIdentifier>{b94654ee-ba9c-42f4-b782-dde54f7ddc23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QuadTree">
+      <UniqueIdentifier>{97d6e972-2516-4cc8-a910-e0b7626de6f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collission">
+      <UniqueIdentifier>{70fdd779-38ae-44f6-b571-6b3d67182598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object">
+      <UniqueIdentifier>{d4ec5e8f-ac87-494b-b435-3d8f98ef0c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Item">
+      <UniqueIdentifier>{b0ac6773-5945-4b92-8403-a142596a1820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\DoorManager">
+      <UniqueIdentifier>{be4a9ee4-1515-47c6-ad16-126454e57a88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Item\ItemManager">
+      <UniqueIdentifier>{8feb7d06-318f-42a5-a2af-97b1d34a3478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Item\SmallHeart">
+      <UniqueIdentifier>{cddc508b-4c15-4b9d-8686-ef769afeccca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\Bricks">
+      <UniqueIdentifier>{676f223d-e10f-4804-9f02-d8a9dc528548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\Door">
+      <UniqueIdentifier>{f36a0cb8-eace-47c0-8b86-6c05dbfa28b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\Stair">
+      <UniqueIdentifier>{e2854da1-e942-4333-9250-c000797ebb65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\LargeCandle">
+      <UniqueIdentifier>{2eb65693-7a05-4fa2-9818-b2683edd2f85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\Zombie">
+      <UniqueIdentifier>{d7e55095-f16f-452a-abd6-881e20d202e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Item\LargeHeart">
+      <UniqueIdentifier>{7ac7eb23-abb0-4705-8109-fb444e85a202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Item\MoneyBag100">
+      <UniqueIdentifier>{6db13c60-c773-44da-8e27-a94617fa08bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Item\MoneyBag400">
+      <UniqueIdentifier>{26fc17a9-3f26-454c-9d45-c3d3c87a542a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Item\MoneyBag700">
+      <UniqueIdentifier>{b8caeaa3-31ae-4211-b47d-797bd0bd83f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Item\MoneyBag1000">
+      <UniqueIdentifier>{7b1e9550-2718-48a0-9536-268b487e4db9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\BlackKnight">
+      <UniqueIdentifier>{0030b4da-83e5-469e-a721-b0e968c2d79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\Axe Man">
+      <UniqueIdentifier>{d420be82-2a8e-461f-8882-68cf7665e82b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\Medusa">
+      <UniqueIdentifier>{e7911d29-3313-462f-ae38-79f7f4170d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\Ghost">
+      <UniqueIdentifier>{7c17b132-e2f4-456e-bb13-cb9ee2bfa1c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\VampireBat">
+      <UniqueIdentifier>{601b5811-9e7b-4131-a21c-f26e247803fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\DragonSkull">
+      <UniqueIdentifier>{ef7d4e4d-da18-4a45-a2e7-045cbe4e7161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\BulletFromEnemy">
+      <UniqueIdentifier>{59a33ffd-9eb2-4f3b-9381-060fa19ce30b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\BulletFromEnemy\FireBall">
+      <UniqueIdentifier>{14825ec8-75a7-4ce4-adb8-66fa3065ef01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\BulletFromEnemy\BulletManager">
+      <UniqueIdentifier>{b09ec4bb-81d2-44d4-a8fb-b9b34dc4c2cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\QueenMedusa">
+      <UniqueIdentifier>{0978f8c3-54be-4fd9-9ffa-bc615f4ebd31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\BulletFromEnemy\Snake">
+      <UniqueIdentifier>{91cc4004-a91c-474d-8f28-eb65e76e1fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\FlameHit">
+      <UniqueIdentifier>{83e61cb0-be5e-4d45-ab65-3e3248dc562f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\MovingPlatForm">
+      <UniqueIdentifier>{28b13bf1-0131-4025-a71b-d91184db3490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Wepons">
+      <UniqueIdentifier>{6fc60d5a-6a47-4621-a237-6354d524807e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Wepons\Axe">
+      <UniqueIdentifier>{404c34d1-ff42-4bf6-9cb4-207164f91143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Wepons\Whip">
+      <UniqueIdentifier>{a80a9a30-898c-45aa-8594-1ea4adda4f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Wepons\WeponManager">
+      <UniqueIdentifier>{9d2eea9c-ed4d-47df-af19-8ffd28f44f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Wepons\Bomerang">
+      <UniqueIdentifier>{e2accbdf-a833-484c-975e-eadb80c50c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScore">
+      <UniqueIdentifier>{1ce30ab5-f5c6-4e85-a73b-28781775d496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScore\ScoreManager">
+      <UniqueIdentifier>{019a823d-7162-4f8a-89f3-cd575e454b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScore\Number">
+      <UniqueIdentifier>{3a0c7cda-809f-4d45-9aa0-ccc3ea39f3ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScore\Score">
+      <UniqueIdentifier>{bd0f0e94-cfa3-4dea-bb16-665ed1ef682b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScore\Time">
+      <UniqueIdentifier>{4cc5a4f5-eb82-40c6-98a8-23372107b284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScore\Stage">
+      <UniqueIdentifier>{c77661d5-e8ed-4cc6-8412-6eff79d535c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScore\Heart">
+      <UniqueIdentifier>{35f17d74-dd50-40d3-92cd-aa180700c861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScore\BloodManager">
+      <UniqueIdentifier>{b886e5d8-ba01-48e5-acd5-30c4d4f2d4dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScore\Blood">
+      <UniqueIdentifier>{10f981c9-b0b1-40b8-89e4-8aef5ded2cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScore\WeponIcon">
+      <UniqueIdentifier>{d8cae322-b340-4b02-9572-252c7d422532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene">
+      <UniqueIdentifier>{96023f48-aaed-4020-87e9-cbd06d4d4dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\TileScreen">
+      <UniqueIdentifier>{1b177c79-c4bf-4a7a-a36a-93ea3b535135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\SceneManager">
+      <UniqueIdentifier>{f8ea3851-0a69-44bb-b616-19c18a24e074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\Intro">
+      <UniqueIdentifier>{97b835df-3cc1-468f-a034-db955b7fe3f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\Map">
+      <UniqueIdentifier>{331ddf8e-be32-4e73-bee9-84149c1b67a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\Hunchback">
+      <UniqueIdentifier>{78842438-324c-4e46-aa33-af2b58001417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\BulletFromEnemy\WhiteBone">
+      <UniqueIdentifier>{10561f36-646b-41f7-8a3f-b7304c84594c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\WhiteSkeleton">
+      <UniqueIdentifier>{63952c43-0a8c-4d5c-b7a9-045341199286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\Raven">
+      <UniqueIdentifier>{c87ab95e-6d82-4847-b148-8e3f38423193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\MummyMan">
+      <UniqueIdentifier>{249b09a9-1b2f-4ee9-a40f-ff586d01dc3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\BulletFromEnemy\Bandage">
+      <UniqueIdentifier>{6f189257-5a98-486e-9800-94aa09fae0a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Item\MagicalCrytal">
+      <UniqueIdentifier>{30b47353-d7f9-4144-99dc-054bf2765d20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\EndGame">
+      <UniqueIdentifier>{fd9908f5-23d8-4827-8565-3de328ab007c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\PauseScene">
+      <UniqueIdentifier>{4de99538-c753-4a71-beb8-ba7c6e7416bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Wepons\HolyWater">
+      <UniqueIdentifier>{9f44da96-29cd-463f-a263-778d5ea9c210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Wepons\Dagger">
+      <UniqueIdentifier>{22b43467-7933-43cf-9a8d-dc21f01bb811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Wepons\Watch">
+      <UniqueIdentifier>{75d91048-6766-4d17-98e5-6e572a9020c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\Block">
+      <UniqueIdentifier>{262d5a22-b99f-4e1e-95af-05ed77228434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\Chunk">
+      <UniqueIdentifier>{a994168b-1a68-4ec8-ba16-8fda0f5ce141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Item\MorningStar">
+      <UniqueIdentifier>{17952f72-d805-4682-adaa-919860486f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Item\PorkChop">
+      <UniqueIdentifier>{b45bc039-d373-496f-b79c-fb8f3d5e3845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Item\WeponsItem">
+      <UniqueIdentifier>{07940d24-a332-45dc-bf26-3822054798b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Item\Crown">
+      <UniqueIdentifier>{37f6fee4-4bf1-4fe0-95a6-c6f5494c4697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Item\TreasureChest">
+      <UniqueIdentifier>{24718955-ca44-432c-9b83-9c5391c14b44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\Thorns">
+      <UniqueIdentifier>{bd1789d9-6687-4496-838d-b246a6d7f5a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Item\Cross">
+      <UniqueIdentifier>{31fe26c1-199b-4595-9489-007f5cd98e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Item\Potion">
+      <UniqueIdentifier>{718c94eb-0378-41d7-b835-2054cfa25708}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Castlevania.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimonBelmont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\dxgi1_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\dxgi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\d3d11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\d3d10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\dxgitype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>QuadTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Quadnode.h">
+      <Filter>QuadTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Quadtree.h">
+      <Filter>QuadTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Collission</Filter>
+    </ClInclude>
+    <ClInclude Include="SweptAABB.h">
+      <Filter>Collission</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>FrameWork\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorManager.h">
+      <Filter>FrameWork\Object\DoorManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>FrameWork\Item\ItemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallHeart.h">
+      <Filter>FrameWork\Item\SmallHeart</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>FrameWork\Object\Bricks</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>FrameWork\Object\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="Stairs.h">
+      <Filter>FrameWork\Object\Stair</Filter>
+    </ClInclude>
+    <ClInclude Include="LargeCandle.h">
+      <Filter>FrameWork\Object\LargeCandle</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>FrameWork\Object\Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraFlat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LargeHeart.h">
+      <Filter>FrameWork\Item\LargeHeart</Filter>
+    </ClInclude>
+    <ClInclude Include="MoneyBag100.h">
+      <Filter>FrameWork\Item\MoneyBag100</Filter>
+    </ClInclude>
+    <ClInclude Include="MoneyBag400.h">
+      <Filter>FrameWork\Item\MoneyBag400</Filter>
+    </ClInclude>
+    <ClInclude Include="MoneyBag700.h">
+      <Filter>FrameWork\Item\MoneyBag700</Filter>
+    </ClInclude>
+    <ClInclude Include="Moneybag1000.h">
+      <Filter>FrameWork\Item\MoneyBag1000</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackKnight.h">
+      <Filter>FrameWork\Object\BlackKnight</Filter>
+    </ClInclude>
+    <ClInclude Include="AxeMan.h">
+      <Filter>FrameWork\Object\Axe Man</Filter>
+    </ClInclude>
+    <ClInclude Include="Medusa.h">
+      <Filter>FrameWork\Object\Medusa</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>FrameWork\Object\Ghost</Filter>
+    </ClInclude>
+    <ClInclude Include="VampireBat.h">
+      <Filter>FrameWork\Object\VampireBat</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonSkull.h">
+      <Filter>FrameWork\Object\DragonSkull</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBall.h">
+      <Filter>FrameWork\BulletFromEnemy\FireBall</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>FrameWork\BulletFromEnemy\BulletManager</Filter>
+    </ClInclude>
+    <ClInclude Include="QueenMedusa.h">
+      <Filter>FrameWork\Object\QueenMedusa</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>FrameWork\BulletFromEnemy\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="Flamehit.h">
+      <Filter>FrameWork\Object\FlameHit</Filter>
+    </ClInclude>
+    <ClInclude Include="ListFlameHit.h">
+      <Filter>FrameWork\Object\FlameHit</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingPlatform.h">
+      <Filter>FrameWork\Object\MovingPlatForm</Filter>
+    </ClInclude>
+    <ClInclude Include="Axe.h">
+      <Filter>FrameWork\Wepons\Axe</Filter>
+    </ClInclude>
+    <ClInclude Include="Whip.h">
+      <Filter>FrameWork\Wepons\Whip</Filter>
+    </ClInclude>
+    <ClInclude Include="WeponManager.h">
+      <Filter>FrameWork\Wepons\WeponManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomerang.h">
+      <Filter>FrameWork\Wepons\Bomerang</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreManager.h">
+      <Filter>GameScore\ScoreManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Number.h">
+      <Filter>GameScore\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>GameScore\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>GameScore\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>GameScore\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Heart.h">
+      <Filter>GameScore\Heart</Filter>
+    </ClInclude>
+    <ClInclude Include="BloodSimon.h">
+      <Filter>GameScore\Blood</Filter>
+    </ClInclude>
+    <ClInclude Include="BloodManager.h">
+      <Filter>GameScore\BloodManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Wepon.h">
+      <Filter>GameScore\WeponIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="GetWepon.h">
+      <Filter>GameScore\WeponIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="TileScreen.h">
+      <Filter>GameScene\TileScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>GameScene\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneID.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="BatScreen.h">
+      <Filter>GameScene\TileScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="Intro.h">
+      <Filter>GameScene\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="BatIntro.h">
+      <Filter>GameScene\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>GameScene\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BossFromMap.h">
+      <Filter>GameScene\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Hunchback.h">
+      <Filter>FrameWork\Object\Hunchback</Filter>
+    </ClInclude>
+    <ClInclude Include="WhiteBone.h">
+      <Filter>FrameWork\BulletFromEnemy\WhiteBone</Filter>
+    </ClInclude>
+    <ClInclude Include="WhiteSkeleton.h">
+      <Filter>FrameWork\Object\WhiteSkeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Raven.h">
+      <Filter>FrameWork\Object\Raven</Filter>
+    </ClInclude>
+    <ClInclude Include="MummyMan.h">
+      <Filter>FrameWork\Object\MummyMan</Filter>
+    </ClInclude>
+    <ClInclude Include="Bandage.h">
+      <Filter>FrameWork\BulletFromEnemy\Bandage</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicalCrytal.h">
+      <Filter>FrameWork\Item\MagicalCrytal</Filter>
+    </ClInclude>
+    <ClInclude Include="EndGame.h">
+      <Filter>GameScene\EndGame</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseScene.h">
+      <Filter>GameScene\PauseScene</Filter>
+    </ClInclude>
+    <ClInclude Include="HolyWater.h">
+      <Filter>FrameWork\Wepons\HolyWater</Filter>
+    </ClInclude>
+    <ClInclude Include="Dagger.h">
+      <Filter>FrameWork\Wepons\Dagger</Filter>
+    </ClInclude>
+    <ClInclude Include="Watch.h">
+      <Filter>FrameWork\Wepons\Watch</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>FrameWork\Object\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>FrameWork\Object\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="ListChunk.h">
+      <Filter>FrameWork\Object\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="MorningStar.h">
+      <Filter>FrameWork\Item\MorningStar</Filter>
+    </ClInclude>
+    <ClInclude Include="PorkChop.h">
+      <Filter>FrameWork\Item\PorkChop</Filter>
+    </ClInclude>
+    <ClInclude Include="WeponsItem.h">
+      <Filter>FrameWork\Item\WeponsItem</Filter>
+    </ClInclude>
+    <ClInclude Include="Crown.h">
+      <Filter>FrameWork\Item\Crown</Filter>
+    </ClInclude>
+    <ClInclude Include="TreasureChest.h">
+      <Filter>FrameWork\Item\TreasureChest</Filter>
+    </ClInclude>
+    <ClInclude Include="Thorns.h">
+      <Filter>FrameWork\Object\Thorns</Filter>
+    </ClInclude>
+    <ClInclude Include="Cross.h">
+      <Filter>FrameWork\Item\Cross</Filter>
+    </ClInclude>
+    <ClInclude Include="Potion.h">
+      <Filter>FrameWork\Item\Potion</Filter>
+    </ClInclude>
+    <ClInclude Include="m2dxanimatedsprite.h">
+      <Filter>FrameWork\Animated</Filter>
+    </ClInclude>
+    <ClInclude Include="m2dx.h">
+      <Filter>FrameWork\D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="m2dxbasegamelayer.h">
+      <Filter>FrameWork\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="m2dxbasesprite.h">
+      <Filter>FrameWork\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="m2dxd3dx.h">
+      <Filter>FrameWork\D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="m2dxdinput.h">
+      <Filter>FrameWork\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="m2dxdirect3d.h">
+      <Filter>FrameWork\D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="m2dxdsound.h">
+      <Filter>FrameWork\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="m2dxicollidable.h">
+      <Filter>FrameWork\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="m2dxidrawable.h">
+      <Filter>FrameWork\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="m2dxresourcemanager.h">
+      <Filter>FrameWork\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="m2dxtexture.h">
+      <Filter>FrameWork\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="m2dxutil.h">
+      <Filter>FrameWork\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="m2dxwindow.h">
+      <Filter>FrameWork\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="dxerr.h">
+      <Filter>FrameWork\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="dsutil.h">
+      <Filter>FrameWork\Window</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Castlevania.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimonBelmont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>QuadTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Quadnode.cpp">
+      <Filter>QuadTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Quadtree.cpp">
+      <Filter>QuadTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Collission</Filter>
+    </ClCompile>
+    <ClCompile Include="SweptAABB.cpp">
+      <Filter>Collission</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorManager.cpp">
+      <Filter>FrameWork\Object\DoorManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>FrameWork\Item\ItemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallHeart.cpp">
+      <Filter>FrameWork\Item\SmallHeart</Filter>
+    </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>FrameWork\Object\Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>FrameWork\Object\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="Stairs.cpp">
+      <Filter>FrameWork\Object\Stair</Filter>
+    </ClCompile>
+    <ClCompile Include="LargeCandle.cpp">
+      <Filter>FrameWork\Object\LargeCandle</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>FrameWork\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>FrameWork\Object\Zombie</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraFlat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LargeHeart.cpp">
+      <Filter>FrameWork\Item\LargeHeart</Filter>
+    </ClCompile>
+    <ClCompile Include="MoneyBag100.cpp">
+      <Filter>FrameWork\Item\MoneyBag100</Filter>
+    </ClCompile>
+    <ClCompile Include="MoneyBag400.cpp">
+      <Filter>FrameWork\Item\MoneyBag400</Filter>
+    </ClCompile>
+    <ClCompile Include="Moneybag700.cpp">
+      <Filter>FrameWork\Item\MoneyBag700</Filter>
+    </ClCompile>
+    <ClCompile Include="MoneyBag1000.cpp">
+      <Filter>FrameWork\Item\MoneyBag1000</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackKnight.cpp">
+      <Filter>FrameWork\Object\BlackKnight</Filter>
+    </ClCompile>
+    <ClCompile Include="AxeMan.cpp">
+      <Filter>FrameWork\Object\Axe Man</Filter>
+    </ClCompile>
+    <ClCompile Include="Medusa.cpp">
+      <Filter>FrameWork\Object\Medusa</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>FrameWork\Object\Ghost</Filter>
+    </ClCompile>
+    <ClCompile Include="Vampirebat.cpp">
+      <Filter>FrameWork\Object\VampireBat</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonSkull.cpp">
+      <Filter>FrameWork\Object\DragonSkull</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBall.cpp">
+      <Filter>FrameWork\BulletFromEnemy\FireBall</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>FrameWork\BulletFromEnemy\BulletManager</Filter>
+    </ClCompile>
+    <ClCompile Include="QueenMedusa.cpp">
+      <Filter>FrameWork\Object\QueenMedusa</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>FrameWork\BulletFromEnemy\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="FlamHit.cpp">
+      <Filter>FrameWork\Object\FlameHit</Filter>
+    </ClCompile>
+    <ClCompile Include="ListFlameHit.cpp">
+      <Filter>FrameWork\Object\FlameHit</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingPlatformcpp.cpp">
+      <Filter>FrameWork\Object\MovingPlatForm</Filter>
+    </ClCompile>
+    <ClCompile Include="Axe.cpp">
+      <Filter>FrameWork\Wepons\Axe</Filter>
+    </ClCompile>
+    <ClCompile Include="Whip.cpp">
+      <Filter>FrameWork\Wepons\Whip</Filter>
+    </ClCompile>
+    <ClCompile Include="WeponManager.cpp">
+      <Filter>FrameWork\Wepons\WeponManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomerang.cpp">
+      <Filter>FrameWork\Wepons\Bomerang</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreManager.cpp">
+      <Filter>GameScore\ScoreManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Number.cpp">
+      <Filter>GameScore\Number</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>GameScore\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>GameScore\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>GameScore\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Heart.cpp">
+      <Filter>GameScore\Heart</Filter>
+    </ClCompile>
+    <ClCompile Include="BloodSimon.cpp">
+      <Filter>GameScore\Blood</Filter>
+    </ClCompile>
+    <ClCompile Include="BloodManager.cpp">
+      <Filter>GameScore\BloodManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Wepon.cpp">
+      <Filter>GameScore\WeponIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="GetWepon.cpp">
+      <Filter>GameScore\WeponIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="TileScreen.cpp">
+      <Filter>GameScene\TileScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>GameScene\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BatScreen.cpp">
+      <Filter>GameScene\TileScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="Intro.cpp">
+      <Filter>GameScene\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="BatIntro.cpp">
+      <Filter>GameScene\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>GameScene\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BossFromMap.cpp">
+      <Filter>GameScene\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="WhiteBone.cpp">
+      <Filter>FrameWork\BulletFromEnemy\WhiteBone</Filter>
+    </ClCompile>
+    <ClCompile Include="Hunchback.cpp">
+      <Filter>FrameWork\Object\Hunchback</Filter>
+    </ClCompile>
+    <ClCompile Include="WhiteSkeleton.cpp">
+      <Filter>FrameWork\Object\WhiteSkeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Raven.cpp">
+      <Filter>FrameWork\Object\Raven</Filter>
+    </ClCompile>
+    <ClCompile Include="MummyMan.cpp">
+      <Filter>FrameWork\Object\MummyMan</Filter>
+    </ClCompile>
+    <ClCompile Include="Bandage.cpp">
+      <Filter>FrameWork\BulletFromEnemy\Bandage</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicalCrytal.cpp">
+      <Filter>FrameWork\Item\MagicalCrytal</Filter>
+    </ClCompile>
+    <ClCompile Include="EndGame.cpp">
+      <Filter>GameScene\EndGame</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseScene.cpp">
+      <Filter>GameScene\PauseScene</Filter>
+    </ClCompile>
+    <ClCompile Include="HolyWater.cpp">
+      <Filter>FrameWork\Wepons\HolyWater</Filter>
+    </ClCompile>
+    <ClCompile Include="Dagger.cpp">
+      <Filter>FrameWork\Wepons\Dagger</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>FrameWork\Object\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>FrameWork\Object\Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="ListChunk.cpp">
+      <Filter>FrameWork\Object\Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="MorningStar.cpp">
+      <Filter>FrameWork\Item\MorningStar</Filter>
+    </ClCompile>
+    <ClCompile Include="PorkChop.cpp">
+      <Filter>FrameWork\Item\PorkChop</Filter>
+    </ClCompile>
+    <ClCompile Include="WeposItem.cpp">
+      <Filter>FrameWork\Item\WeponsItem</Filter>
+    </ClCompile>
+    <ClCompile Include="Crown.cpp">
+      <Filter>FrameWork\Item\Crown</Filter>
+    </ClCompile>
+    <ClCompile Include="TreasureChest.cpp">
+      <Filter>FrameWork\Item\TreasureChest</Filter>
+    </ClCompile>
+    <ClCompile Include="Thorns.cpp">
+      <Filter>FrameWork\Object\Thorns</Filter>
+    </ClCompile>
+    <ClCompile Include="Cross.cpp">
+      <Filter>FrameWork\Item\Cross</Filter>
+    </ClCompile>
+    <ClCompile Include="Potion.cpp">
+      <Filter>FrameWork\Item\Potion</Filter>
+    </ClCompile>
+    <ClCompile Include="Watch.cpp">
+      <Filter>FrameWork\Wepons\Watch</Filter>
+    </ClCompile>
+    <ClCompile Include="m2dxwindow.cpp">
+      <Filter>FrameWork\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="m2dxutil.cpp">
+      <Filter>FrameWork\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="m2dxtexture.cpp">
+      <Filter>FrameWork\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="m2dxresourcemanager.cpp">
+      <Filter>FrameWork\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="m2dxidrawable.cpp">
+      <Filter>FrameWork\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="m2dxicollidable.cpp">
+      <Filter>FrameWork\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="m2dxdsound.cpp">
+      <Filter>FrameWork\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="m2dxdirect3d.cpp">
+      <Filter>FrameWork\D3DX</Filter>
+    </ClCompile>
+    <ClCompile Include="m2dxdinput.cpp">
+      <Filter>FrameWork\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="m2dxd3dx.cpp">
+      <Filter>FrameWork\D3DX</Filter>
+    </ClCompile>
+    <ClCompile Include="m2dxbasesprite.cpp">
+      <Filter>FrameWork\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="m2dxbasegamelayer.cpp">
+      <Filter>FrameWork\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="m2dxanimatedsprite.cpp">
+      <Filter>FrameWork\Animated</Filter>
+    </ClCompile>
+    <ClCompile Include="dsutil.cpp">
+      <Filter>FrameWork\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="dxerr.cpp">
+      <Filter>FrameWork\Window</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Sprites\Simon Belmont\SimonBelmontSpriteSheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Sprites\Weapons\Whip\WhipSpriteSheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\Sprites\Simon Belmont\SimonBelmontSpriteSheet.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Resources\Sprites\Weapons\Whip\WhipSpriteSheet.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

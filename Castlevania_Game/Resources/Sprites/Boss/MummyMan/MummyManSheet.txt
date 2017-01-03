@@ -1,0 +1,4 @@
+MummyManFrame1 = 0 0 16 40
+MummyManFrame2 = 17 0 16 40
+MummyManFrame3 = 34 0 16 40
+MummyManFrame4 = 51 0 16 40

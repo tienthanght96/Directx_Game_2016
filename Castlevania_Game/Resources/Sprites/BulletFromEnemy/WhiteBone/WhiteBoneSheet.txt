@@ -1,0 +1,3 @@
+WhiteBoneFrame1 = 0 0 15 16
+WhiteBoneFrame2 = 16 0 15 16
+WhiteBoneFrame3 = 32 0 15 16

@@ -1,0 +1,2 @@
+BeforeDead = 18 0 8 13
+DragonSkull = 0 0 17 32

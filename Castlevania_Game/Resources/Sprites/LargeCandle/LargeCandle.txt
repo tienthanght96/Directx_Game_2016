@@ -1,0 +1,3 @@
+BeforeDead = 0 17 8 13
+LargeCandleBegin = 0 0 8 16
+LargeCandleEnd = 9 0 8 16

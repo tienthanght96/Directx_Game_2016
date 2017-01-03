@@ -1,0 +1,2 @@
+BandageFrame1 = 0 0 16 9
+BandageFrame2 = 0 10 16 9

@@ -1,0 +1,4 @@
+TreasureChestFrame1 = 0 0 16 12
+TreasureChestFrame2 = 0 13 16 12
+TreasureChestFrame3 = 17 0 16 12
+TreasureChestFrame4 = 17 13 16 12

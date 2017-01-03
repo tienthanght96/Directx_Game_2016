@@ -1,0 +1,4 @@
+FlameHitFrame1 = 0 0 8 15
+FlameHitFrame2 = 9 0 8 15
+FlameHitFrame3 = 18 0 8 15
+FlameHitFrame4 = 0 16 8 15

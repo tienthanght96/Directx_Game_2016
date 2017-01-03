@@ -1,0 +1,3 @@
+BeforeDead = 0 33 8 13
+ZombieFrame1 = 0 0 16 32
+ZombieFrame2 = 17 0 16 32

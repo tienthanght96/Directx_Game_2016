@@ -1,0 +1,3 @@
+BeforeDead = 0 17 8 13
+MedusaFrame1 = 0 0 16 16
+MedusaFrame2 = 17 0 16 16

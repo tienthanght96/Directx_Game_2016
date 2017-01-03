@@ -1,0 +1,5 @@
+DoorBegin = 0 0 24 48
+DoorEnd0 = 25 0 24 48
+DoorEnd1 = 50 0 24 48
+DoorMidle = 75 0 24 48
+DoorNomal = 100 0 8 48

@@ -1,0 +1,2 @@
+QueenMedusaFrame1 = 0 0 32 32
+QueenMedusaFrame2 = 33 0 32 32

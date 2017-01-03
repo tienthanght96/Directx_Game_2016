@@ -1,0 +1,2 @@
+MagicalCrystalFrame1 = 0 0 14 16
+MagicalCrystalFrame2 = 15 0 14 16

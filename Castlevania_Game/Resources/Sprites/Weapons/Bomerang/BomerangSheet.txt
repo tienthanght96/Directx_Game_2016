@@ -1,0 +1,3 @@
+BomerangFrame1 = 0 0 15 14
+BomerangFrame2 = 16 0 15 14
+BomerangFrame3 = 0 15 15 14

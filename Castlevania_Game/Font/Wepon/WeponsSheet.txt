@@ -1,0 +1,5 @@
+Axe = 33 0 15 14
+Boomerang = 17 17 15 14
+Dagger = 0 17 16 9
+HolyWater = 0 0 16 16
+Watch = 17 0 15 16
